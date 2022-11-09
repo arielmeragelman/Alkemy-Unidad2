@@ -77,3 +77,16 @@ MYSQL_HOST=localhost
 MYSQL_PORT=3030
 MYSQL_USER=usuarioadministrador
 MYSQL_PWD=passwordsecreta
+
+-----------------
+
+Importante!!!
+Para la segunda parte del ejercicio se debe considerar que el paquete dotenv puede generar conflictos por lo que instalamos python-dotenv
+
+venv-decouple) (base) arielmeragelman@debian:~/Entornos/Unidad2/Alkemy-Unidad2$ python -m pip install python-dotenv
+Collecting python-dotenv
+  Using cached python_dotenv-0.21.0-py3-none-any.whl (18 kB)
+Installing collected packages: python-dotenv
+Successfully installed python-dotenv-0.21.0
+WARNING: You are using pip version 22.0.4; however, version 22.3.1 is available.
+You should consider upgrading via the '/home/arielmeragelman/Entornos/Unidad2/venv-decouple/bin/python -m pip install --upgrade pip' command.
