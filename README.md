@@ -65,3 +65,15 @@ localhost
 3030
 usuarioadministrador
 passwordsecreta
+
+
+
+
+-----------------------
+
+Se debe crear un archivo .env en el directorio donde esta nuestro app.py, el mismo por razones de seguridad no debe quedar en el historial de github pero se deja como debe conformarse usando datos no reales
+
+MYSQL_HOST=localhost
+MYSQL_PORT=3030
+MYSQL_USER=usuarioadministrador
+MYSQL_PWD=passwordsecreta
