@@ -1,6 +1,5 @@
 from decouple import config
 
-print(config('MYSQL_HOST'))
-print(config('MYSQL_PORT'))
-print(config('MYSQL_USER'))
-print(config('MYSQL_PWD'))
+
+print("Los datos de la conexion son")
+print(f"Host: {config('MYSQL_HOST')} PUERTO: {config('MYSQL_PORT')} USUARIO: {config('MYSQL_USER')} PASSWORD: {config('MYSQL_PWD')}   ")
